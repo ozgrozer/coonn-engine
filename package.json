@@ -1,0 +1,22 @@
+{
+  "name": "coonn-engine",
+  "version": "0.0.1",
+  "description": "Core engine for Coonn.",
+  "main": "coonn-engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ozgrozer@github.com/ozgrozer/coonn-engine.git"
+  },
+  "keywords": [
+    "converter"
+  ],
+  "author": "Ozgur Ozer <ozgr@live.com> (https://github.com/ozgrozer/coonn-engine)",
+  "license": "IHL",
+  "bugs": {
+    "url": "https://github.com/ozgrozer/coonn-engine/issues"
+  },
+  "homepage": "https://github.com/ozgrozer/coonn-engine#readme"
+}
