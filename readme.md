@@ -1,18 +1,18 @@
-# coonn-engine
-Core engine for [Coonn](https://github.com/ozgrozer/coonn).
+# trevor-engine
+Core engine for [Trevor](https://github.com/ozgrozer/trevor).
 
 ## Installation
 ```sh
-$ npm i --save coonn-engine
+$ npm i --save trevor-engine
 ```
 
 ## Usage
 ```js
-const coonnE = require('coonn-engine')
+const trevorE = require('trevor-engine')
 
-console.log(coonnE('60 mi to km')) // 96.56 km
-console.log(coonnE('5 foot to cm')) // 152.40 cm
-console.log(coonnE('9 inch to cm')) // 22.86 cm
+console.log(trevorE('60 mi to km')) // 96.56 km
+console.log(trevorE('5 foot to cm')) // 152.40 cm
+console.log(trevorE('9 inch to cm')) // 22.86 cm
 ```
 
 ## Road Map
@@ -32,7 +32,7 @@ console.log(coonnE('9 inch to cm')) // 22.86 cm
 - [ ] Volume
 
 ## Contribution
-Feel free to contribute. Open a new [issue](https://github.com/ozgrozer/coonn-engine/issues), or make a [pull request](https://github.com/ozgrozer/coonn-engine/pulls).
+Feel free to contribute. Open a new [issue](https://github.com/ozgrozer/trevor-engine/issues), or make a [pull request](https://github.com/ozgrozer/trevor-engine/pulls).
 
 ## License
 [IHL](https://github.com/ozgrozer/ihl)

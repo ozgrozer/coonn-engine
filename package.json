@@ -1,22 +1,22 @@
 {
-  "name": "coonn-engine",
+  "name": "trevor-engine",
   "version": "0.0.1",
-  "description": "Core engine for Coonn.",
-  "main": "coonn-engine.js",
+  "description": "Core engine for Trevor.",
+  "main": "trevor-engine.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ozgrozer@github.com/ozgrozer/coonn-engine.git"
+    "url": "git+https://ozgrozer@github.com/ozgrozer/trevor-engine.git"
   },
   "keywords": [
     "converter"
   ],
-  "author": "Ozgur Ozer <ozgr@live.com> (https://github.com/ozgrozer/coonn-engine)",
+  "author": "Ozgur Ozer <ozgr@live.com> (https://github.com/ozgrozer/trevor-engine)",
   "license": "IHL",
   "bugs": {
-    "url": "https://github.com/ozgrozer/coonn-engine/issues"
+    "url": "https://github.com/ozgrozer/trevor-engine/issues"
   },
-  "homepage": "https://github.com/ozgrozer/coonn-engine#readme"
+  "homepage": "https://github.com/ozgrozer/trevor-engine#readme"
 }
