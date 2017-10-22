@@ -8,11 +8,11 @@ $ npm i --save trevor-engine
 
 ## Usage
 ```js
-const trevorE = require('trevor-engine')
+const te = require('trevor-engine')
 
-console.log(trevorE('60 mi to km')) // 96.56 km
-console.log(trevorE('5 foot to cm')) // 152.40 cm
-console.log(trevorE('9 inch to cm')) // 22.86 cm
+console.log(te('60 mi to km')) // 96.56 km
+console.log(te('5 foot to cm')) // 152.40 cm
+console.log(te('9 inch to cm')) // 22.86 cm
 ```
 
 ## Road Map
