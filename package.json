@@ -4,7 +4,7 @@
   "description": "Core engine for Trevor.",
   "main": "trevor-engine.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/ozgrozer/trevor-engine/issues"
   },
-  "homepage": "https://github.com/ozgrozer/trevor-engine#readme"
+  "homepage": "https://github.com/ozgrozer/trevor-engine#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "standard": {
+    "globals": [
+      "test",
+      "expect"
+    ]
+  }
 }

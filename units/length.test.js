@@ -1,0 +1,12 @@
+const length = require('./length')
+
+test('km to km', () => { expect(length('1', 'km', 'km')).toBe(1) })
+test('km to m', () => { expect(length('1', 'km', 'm')).toBe(1000) })
+test('km to cm', () => { expect(length('1', 'km', 'cm')).toBe(100000) })
+test('km to mm', () => { expect(length('1', 'km', 'mm')).toBe(1000000) })
+test('km to μm', () => { expect(length('1', 'km', 'μm')).toBe(1000000000) })
+test('km to nm', () => { expect(length('1', 'km', 'nm')).toBe(1000000000000) })
+test('km to mi', () => { expect(length('1', 'km', 'mi')).toBe(0.621371) })
+test('km to yd', () => { expect(length('1', 'km', 'yd')).toBe(1093.61) })
+test('km to ft', () => { expect(length('1', 'km', 'ft')).toBe(3280.84) })
+test('km to in', () => { expect(length('1', 'km', 'in')).toBe(39370.10) })
