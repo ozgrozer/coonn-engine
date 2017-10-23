@@ -1,4 +1,8 @@
 # trevor-engine
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/ozgrozer/trevor-engine)
+[![npm](https://img.shields.io/npm/v/trevor-engine.svg?style=flat-square)](https://www.npmjs.com/package/trevor-engine)
+[![license](https://img.shields.io/badge/license-IHL-blue.svg?style=flat-square)](https://github.com/ozgrozer/ihl)
+
 Core engine for [Trevor](https://github.com/ozgrozer/trevor).
 
 ## Installation
