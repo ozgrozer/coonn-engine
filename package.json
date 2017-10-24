@@ -14,7 +14,7 @@
     "converter"
   ],
   "author": "Ozgur Ozer <ozgr@live.com> (https://github.com/ozgrozer/trevor-engine)",
-  "license": "IHL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ozgrozer/trevor-engine/issues"
   },
