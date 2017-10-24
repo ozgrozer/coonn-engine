@@ -1,4 +1,4 @@
-const fn = require('./../functions')
+const unitConverter = require('./../unit-converter')
 
 const values = {
   'kilometer': {
@@ -58,5 +58,5 @@ const values = {
 }
 
 module.exports = (inputValue, inputUnit, outputUnit) => {
-  return fn.unitConverter(inputValue, inputUnit, outputUnit, values)
+  return unitConverter(inputValue, inputUnit, outputUnit, values)
 }
