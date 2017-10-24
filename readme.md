@@ -39,4 +39,4 @@ console.log(te('9 inch to cm')) // 22.86 cm
 Feel free to contribute. Open a new [issue](https://github.com/ozgrozer/trevor-engine/issues), or make a [pull request](https://github.com/ozgrozer/trevor-engine/pulls).
 
 ## License
-[MIT](https://tldrlegal.com/license/mit-license)
+[MIT](https://github.com/ozgrozer/trevor-engine/blob/master/license)
