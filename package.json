@@ -2,7 +2,7 @@
   "name": "trevor-engine",
   "version": "0.2.1",
   "description": "Core engine for Trevor.",
-  "main": "engine/trevor-engine.js",
+  "main": "core/trevor-engine.js",
   "scripts": {
     "test": "node_modules/.bin/jest"
   },
