@@ -7,7 +7,11 @@ Core engine for [Trevor](https://github.com/ozgrozer/trevor).
 
 ## Installation
 ```sh
-$ npm i --save trevor-engine
+# with npm
+$ npm i trevor-engine
+
+# or with yarn
+$ yarn add trevor-engine
 ```
 
 ## Usage
