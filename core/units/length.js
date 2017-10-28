@@ -122,7 +122,19 @@ const values = {
     }
   },
   'foot': {
-    variants: ['feet', 'foot', 'ft']
+    variants: ['feet', 'foot', 'ft'],
+    to: {
+      kilometer: 0.0003048,
+      meter: 0.3048,
+      centimeter: 30.48,
+      milimeter: 304.8,
+      micrometer: 304800,
+      nanometer: 304800000,
+      mile: 0.000189394,
+      yard: 0.333333,
+      foot: 1,
+      inch: 12
+    }
   },
   'inch': {
     variants: ['inches', 'inch', 'in']
