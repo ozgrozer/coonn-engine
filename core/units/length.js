@@ -92,7 +92,19 @@ const values = {
     }
   },
   'mile': {
-    variants: ['miles', 'mile', 'mi']
+    variants: ['miles', 'mile', 'mi'],
+    to: {
+      kilometer: 1.60934,
+      meter: 1609.34,
+      centimeter: 160934,
+      milimeter: 1609340,
+      micrometer: 1609340000,
+      nanometer: 1609340000000,
+      mile: 1,
+      yard: 1760,
+      foot: 5280,
+      inch: 63360
+    }
   },
   'yard': {
     variants: ['yards', 'yard', 'yds', 'yd']
