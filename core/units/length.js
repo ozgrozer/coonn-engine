@@ -107,7 +107,19 @@ const values = {
     }
   },
   'yard': {
-    variants: ['yards', 'yard', 'yds', 'yd']
+    variants: ['yards', 'yard', 'yds', 'yd'],
+    to: {
+      kilometer: 0.0009144,
+      meter: 0.9144,
+      centimeter: 91.44,
+      milimeter: 914.4,
+      micrometer: 914400,
+      nanometer: 914400000,
+      mile: 0.000568182,
+      yard: 1,
+      foot: 3,
+      inch: 36
+    }
   },
   'foot': {
     variants: ['feet', 'foot', 'ft']

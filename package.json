@@ -1,6 +1,6 @@
 {
   "name": "trevor-engine",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Core engine for Trevor.",
   "main": "core/trevor-engine.js",
   "scripts": {
