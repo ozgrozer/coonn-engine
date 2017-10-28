@@ -137,10 +137,20 @@ const values = {
     }
   },
   'inch': {
-    variants: ['inches', 'inch', 'in']
+    variants: ['inches', 'inch', 'in'],
+    to: {
+      kilometer: 0.0000254,
+      meter: 0.0254,
+      centimeter: 2.54,
+      milimeter: 25.4,
+      micrometer: 25400,
+      nanometer: 25400000,
+      mile: 0.0000157828,
+      yard: 0.0277778,
+      foot: 0.0833333,
+      inch: 1
+    }
   }
 }
 
-module.exports = (inputValue, inputUnit, outputUnit) => {
-  return unitConverter(inputValue, inputUnit, outputUnit, values)
-}
+module.exports = (inputValue, inputUnit, outputUnit) => unitConverter(inputValue, inputUnit, outputUnit, values)
