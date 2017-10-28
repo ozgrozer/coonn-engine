@@ -19,8 +19,8 @@ $ yarn add trevor-engine
 const trevorEngine = require('trevor-engine')
 
 console.log(trevorEngine('60 mi to km')) // 96.56 km
-console.log(trevorEngine('5 foot to cm')) // 152.40 cm
-console.log(trevorEngine('9 inch to cm')) // 22.86 cm
+console.log(trevorEngine('5 ft to cm')) // 152.40 cm
+console.log(trevorEngine('9 in to cm')) // 22.86 cm
 ```
 
 ## Road Map
@@ -30,7 +30,7 @@ console.log(trevorEngine('9 inch to cm')) // 22.86 cm
 - [ ] Energy
 - [ ] Frequency
 - [ ] Fuel Economy
-- [ ] Length
+- [x] Length
 - [ ] Mass
 - [ ] Plane Angle
 - [ ] Pressure
