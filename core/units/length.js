@@ -62,7 +62,19 @@ const values = {
     }
   },
   'micrometer': {
-    variants: ['micrometers', 'micrometer', 'micrometres', 'micrometre', 'μm']
+    variants: ['micrometers', 'micrometer', 'micrometres', 'micrometre', 'μm'],
+    to: {
+      kilometer: 0.000000001,
+      meter: 0.000001,
+      centimeter: 0.0001,
+      milimeter: 0.001,
+      micrometer: 1,
+      nanometer: 1000,
+      mile: 0.000000000621371,
+      yard: 0.00000109361,
+      foot: 0.00000328084,
+      inch: 0.0000393701
+    }
   },
   'nanometer': {
     variants: ['nanometers', 'nanometer', 'nanometres', 'nanometre', 'nm']
