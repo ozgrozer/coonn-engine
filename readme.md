@@ -16,11 +16,11 @@ $ yarn add trevor-engine
 
 ## Usage
 ```js
-const te = require('trevor-engine')
+const trevorEngine = require('trevor-engine')
 
-console.log(te('60 mi to km')) // 96.56 km
-console.log(te('5 foot to cm')) // 152.40 cm
-console.log(te('9 inch to cm')) // 22.86 cm
+console.log(trevorEngine('60 mi to km')) // 96.56 km
+console.log(trevorEngine('5 foot to cm')) // 152.40 cm
+console.log(trevorEngine('9 inch to cm')) // 22.86 cm
 ```
 
 ## Road Map
