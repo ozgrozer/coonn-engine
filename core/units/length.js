@@ -1,6 +1,4 @@
-const unitConverter = require('./../unit-converter')
-
-const values = {
+module.exports = {
   'kilometer': {
     variants: ['kilometers', 'kilometer', 'kilometres', 'kilometre', 'km'],
     to: {
@@ -152,5 +150,3 @@ const values = {
     }
   }
 }
-
-module.exports = (inputValue, inputUnit, outputUnit) => unitConverter(inputValue, inputUnit, outputUnit, values)

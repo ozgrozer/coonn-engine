@@ -1,14 +1,45 @@
-const fn = require('./functions')
 const units = require('./units')
 
-module.exports = input => {
+module.exports = (input, precision = 2, showOutputUnit = true) => {
   let result = ''
+
   if (input) {
     const [inputValue, inputUnit, to, outputUnit] = input.split(' ')
-    if (to === 'to') {
-      result = units.length(inputValue, inputUnit, outputUnit)
-      result = fn.prettyResult(result, outputUnit)
+
+    if (inputValue && inputUnit && to === 'to' && outputUnit) {
+      let from, to, unit
+
+      for (let key1 in units) {
+        const values = units[key1]
+
+        for (let key2 in values) {
+          const variants = values[key2].variants
+
+          variants.map(variant => {
+            if (variant === inputUnit) {
+              from = key2
+              unit = key1
+            }
+
+            if (variant === outputUnit) to = key2
+          })
+        }
+      }
+
+      const ratio = units[unit][from]['to'][to]
+
+      if (ratio) result = inputValue * ratio
+
+      if (result) {
+        if (precision) {
+          result = result.toFixed(precision)
+          result = (result.substr(-3) === '.00' ? result.substr(0, result.length - 3) : result)
+        }
+
+        if (showOutputUnit) result += ' ' + outputUnit
+      }
     }
   }
+
   return result
 }
