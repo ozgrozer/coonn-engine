@@ -1,4 +1,4 @@
-const tf = require('./../test-function')
+const tf = require('./../test-helper')
 
 test('1 km to km = 1', () => { expect(tf('1 km to km')).toBe(1) })
 test('1 km to m = 1000', () => { expect(tf('1 km to m')).toBe(1000) })

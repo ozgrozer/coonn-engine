@@ -1,3 +1,4 @@
+const math = require('mathjs')
 const units = require('./units')
 
 module.exports = (input, precision = 2, showOutputUnit = true) => {
@@ -28,7 +29,13 @@ module.exports = (input, precision = 2, showOutputUnit = true) => {
 
       const ratio = units[unit][from]['to'][to]
 
-      if (ratio) result = inputValue * ratio
+      if (ratio) {
+        if (ratio.toString().indexOf('input')) {
+          result = math.eval(ratio.toString().replace(/input/g, inputValue))
+        } else {
+          result = inputValue * ratio
+        }
+      }
 
       if (result) {
         if (precision) {

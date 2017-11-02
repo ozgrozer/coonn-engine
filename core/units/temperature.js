@@ -3,8 +3,8 @@ module.exports = {
     variants: ['fahrenheit', 'f'],
     to: {
       fahrenheit: 1,
-      celsius: 2,
-      kelvin: 3
+      celsius: '((input - 32) * 5) / 9',
+      kelvin: '((input + 459.67) * 5) / 9'
     }
   },
   'celsius': {
