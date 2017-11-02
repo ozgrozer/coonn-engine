@@ -19,6 +19,9 @@
     "url": "https://github.com/ozgrozer/trevor-engine/issues"
   },
   "homepage": "https://github.com/ozgrozer/trevor-engine#readme",
+  "dependencies": {
+    "mathjs": "^3.16.5"
+  },
   "devDependencies": {
     "jest": "^21.2.1"
   },
