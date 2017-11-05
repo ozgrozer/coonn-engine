@@ -5,9 +5,9 @@ module.exports = (input, precision = 2, showOutputUnit = true) => {
   let result = ''
 
   if (input) {
-    const [inputValue, inputUnit, to, outputUnit] = input.split(' ')
+    const [inputValue, inputUnit, _to, outputUnit] = input.split(' ')
 
-    if (inputValue && inputUnit && to === 'to' && outputUnit) {
+    if (inputValue && inputUnit && _to === 'to' && outputUnit) {
       let from, to, unit
 
       for (let key1 in units) {
@@ -30,7 +30,7 @@ module.exports = (input, precision = 2, showOutputUnit = true) => {
       const ratio = units[unit][from]['to'][to]
 
       if (ratio) {
-        if (ratio.toString().indexOf('input')) {
+        if (ratio.toString().indexOf('input') !== -1) {
           result = math.eval(ratio.toString().replace(/input/g, inputValue))
         } else {
           result = inputValue * ratio
